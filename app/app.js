@@ -7,12 +7,22 @@
         // TODO: reload image source
     });
 
+    app.controller('PanelController', function(){
+        this.tab = 1;
+
+        this.selectTab = function(setTab) {
+            this.tab = setTab;
+        };
+    });
+
     var gems = [
         {
             name: 'Product',
             price: 2,
             date: '1227201312501',
             description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
+            specifications: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
+            reviews: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
             canPurchase: true,
             soldOut: false,
             images: [
@@ -31,6 +41,8 @@
             price: 2.95,
             date: '1227201312501',
             description: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
+            specifications: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
+            reviews: 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.',
             canPurchase: true,
             soldOut: false,
             images: [
