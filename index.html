@@ -9,6 +9,21 @@
 </head>
 <body ng-controller="StoreController as store">
 
+
+    <!-- WITHOUT REPEAT
+
+    <div ng-hide="store.products.soldOut">-->
+        <!--&lt;!&ndash;- Syntax <p>{{4 + 6}}</p> &ndash;&gt;-->
+
+        <!--<h1> {{store.products[0].name}} </h1>-->
+        <!--<h1> ${{store.products[0].price}} </h1>-->
+        <!--<p> {{store.products[0].description}} </p>-->
+        <!--<button ng-show="store.products[0].canPurchase">Add to Cart</button>-->
+
+    <!--</div>-->
+
+
+
     <div ng-repeat="product in store.products" ng-hide="store.products.soldOut">
         <!--- Syntax <p>{{4 + 6}}</p> -->
 
