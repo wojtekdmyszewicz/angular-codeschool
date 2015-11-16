@@ -2,8 +2,6 @@ http://127.0.0.1:3001/
 
 https://github.com/mgechev/angularjs-style-guide
 
-http://flickholdr.iwerk.org/
-
 http://campus.codeschool.com/courses/shaping-up-with-angular-js/contents
 
 
